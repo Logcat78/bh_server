@@ -23,7 +23,6 @@ class GestureService(private val connection: Connection) {
         val statement = connection.createStatement()
         statement.executeUpdate(CREATE_TABLE_CITIES)
     }
-//ws://cb87-193-32-202-108.ngrok-free.app/ws
 
 
     suspend fun create(gestureParams: GestureParams): Int = withContext(Dispatchers.IO) {

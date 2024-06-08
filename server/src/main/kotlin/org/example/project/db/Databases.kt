@@ -1,15 +1,10 @@
 package org.example.project.db
 
 import io.ktor.server.application.*
-import io.ktor.server.routing.*
 import java.sql.Connection
 import java.sql.DriverManager
 
-fun Application.configureDatabases() {
-    routing {
 
-    }
-}
 
 
 fun Application.connectToPostgres(embedded: Boolean): Connection {

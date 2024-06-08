@@ -14,6 +14,7 @@ kotlin {
         
         commonMain.dependencies {
             implementation(compose.runtime)
+            implementation("org.jetbrains.androidx.navigation:navigation-compose:2.7.0-alpha07")
             implementation(compose.foundation)
             implementation(compose.material)
             implementation(compose.ui)
