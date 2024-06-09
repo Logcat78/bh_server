@@ -4,6 +4,7 @@ import org.example.project.models.GestureParams
 
 class Gesture {
 
+
     fun generateGestureParams(): GestureParams {
         val randomParam = 5..1000
         return GestureParams(
